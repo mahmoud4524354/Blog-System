@@ -57,7 +57,7 @@
                                     <ul class="thumb-info">
                                         <li><a href="#"><i class="ti-user"></i>{{$blog->user->name}}</a></li>
                                         <li><a href="#"><i class="ti-notepad"></i>{{$blog->created_at}}</a></li>
-                                        <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
+                                        <li><a href="#"><i class="ti-themify-favicon"></i>{{count($blog->comments)}}</a></li>
                                     </ul>
                                 </div>
                                 <div class="details mt-20">

@@ -22,7 +22,7 @@
                                 <img class="card-img rounded-0" src="{{ asset('storage') }}/blogs/{{$blog->image}}" alt="">
                                 <ul class="thumb-info">
                                     <li><a href="#"><i class="ti-user"></i>{{$blog->user->name}}</a></li>
-                                    <li><a href="#"><i class="ti-themify-favicon"></i>2 Comments</a></li>
+                                    <li><a href="#"><i class="ti-themify-favicon"></i>{{count($blog->comments)}}</a></li>
                                 </ul>
                             </div>
                             <div class="details mt-20">
